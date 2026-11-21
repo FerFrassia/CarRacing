@@ -1,6 +1,8 @@
 # CarRacing
 Self Driving Car Game implemented with DQN (Reinforcement Learning)
 
+![The trained agent driving](assets/demo.gif)
+
 ## Installation
 
 Requires Python 3.10 or newer.
@@ -21,12 +23,12 @@ python -m gymnasium.envs.box2d.car_racing
 ## Watch the trained agent play
 
 ```bash
-python train_dqn.py --play ./runs/baseline/best.pt --play-episodes 10
+python ./code/train_dqn.py --play ./runs/baseline/best.pt --play-episodes 10
 ```
 
 ## Train your own agent
 ```bash
-python train_dqn.py --run-name my_run --num-envs 4 --hours 2
+python ./code/train_dqn.py --run-name my_run --num-envs 4 --hours 2
 ```
 
 ### Related papers
