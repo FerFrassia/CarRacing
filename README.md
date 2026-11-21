@@ -1,7 +1,9 @@
-# CarRacing
-Self Driving Car Game implemented with DQN (Reinforcement Learning)
+<h1 align="center">CarRacing</h1>
+<p align="center">Self Driving Car Game implemented with DQN (Reinforcement Learning)</p>
 
-![The trained agent driving](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" alt="The trained agent driving" width="480">
+</p>
 
 ## Installation
 
